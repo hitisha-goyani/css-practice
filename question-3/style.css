@@ -1,0 +1,86 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:rgb(0, 81, 255);
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+p{
+    color: white;
+    font-size:30px;
+    margin-right:60%;
+}
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.items {
+    position: relative;
+}
+
+.items > a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    background-color:rgb(0, 81, 255);
+}
+
+.items > a:hover {
+    background-color:rgb(0, 81, 255);
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color:rgb(0, 81, 255);
+    min-width: 150px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    border: 1px solid white;
+}
+
+.dropdown a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color:rgb(0, 81, 255);
+}
+
+.items:hover .dropdown{
+
+     display: block;
+}
+
+.btn{
+    height:40px;
+    width:90px;
+    color:rgb(0, 81, 255);
+    background-color:white;
+    font-size:18px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 0;
+
+}
+.btn:hover{
+    color: white;
+    background-color:rgb(223, 70, 70);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

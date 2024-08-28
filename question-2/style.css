@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(45deg, #efefef 25%, rgba(239, 239, 239, 0) 25%, rgba(239, 239, 239, 0) 75%, #efefef 75%, #efefef), linear-gradient(45deg, #efefef 25%, rgba(239, 239, 239, 0) 25%, rgba(239, 239, 239, 0) 75%, #efefef 75%, #efefef);
+}
+.container{
+    width:100%;
+    height: 100%;
+    /* border:1px solid black; */
+    margin-top:10%;
+   
+}
+ .box{
+    height:650px;
+    width:30%;
+    /* border: 1px solid green; */
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding:10px;
+}
+h1{
+    text-align:center;
+    margin-top: 20px;
+}
+.p{
+    text-align:center;
+    padding:10px;
+}
+
+.main-box{
+   
+    display: flex;
+    flex-wrap: wrap ;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    margin: auto;
+}
+
+.sub-box{
+    display:inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 380px;
+    margin-top: 20px;
+}
+input{ 
+    width: 350px;
+    height: 35px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-mail{
+   
+    margin-top: 15px;
+    max-width: 300px;
+
+    
+}
+
+.mail{
+    height: 35px;
+}
+.msg{
+    height: 98px;
+}
+.send{
+    width: 250px;
+    height: 50px;
+    background-color: #784eeb;
+    color:white;
+    border: none;
+    margin-top: 25px;
+    margin-left:15%;
+    font-size: 18px;
+   
+}
+
+.send:hover{
+    background-color: rgb(76, 0, 255);
+}
+label{
+    margin-bottom:10px;
+}
+

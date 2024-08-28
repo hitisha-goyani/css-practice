@@ -1,0 +1,41 @@
+<!-- In this task, you need to design a navigation bar with dropdown submenus. They will utilize CSS properties to control the positioning of the submenus, their visibility, and how they respond when users hover over navigation items. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <p>codesoft</p>
+            <ul class="menu">
+                <li class="items"><a href="#">Home</a></li>
+                <li class="items">
+                    <a href="#">Services</a>
+                    <div class="dropdown">
+                        <a href="#">Web Design</a>
+                        <a href="#">SEO</a>
+                        <a href="#"> Marketing</a>
+                        <a href="#"> ui/ux</a>
+                        <a href="#">developemnt</a>
+                        <a href="#"> HR</a>
+                    </div>
+                </li>
+                <li class="items">
+                    <a href="#">About</a>
+                    <div class="dropdown">
+                        <a href="#">Company</a>
+                        <a href="#">Team</a>
+                        <a href="#">Careers</a>
+                    </div>
+                </li>
+                <li class="items"><a href="#">Contact</a></li>
+            </ul>
+            <button class="btn">login</button>
+        </div>
+    </header>
+</body>
+</html>
